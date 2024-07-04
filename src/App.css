@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+}
+
+#root {
+  min-height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* Custom scrollbar styling for WebKit browsers */
+::-webkit-scrollbar {
+  width: 2px; /* Set scrollbar width */
+  height: 2px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent; /* Set scrollbar track background */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: white; /* Set scrollbar thumb color */
+}
+
+::-webkit-scrollbar-button {
+  display: none; /* Hide the scrollbar buttons */
+}
+
+/* Custom scrollbar styling for Firefox */
