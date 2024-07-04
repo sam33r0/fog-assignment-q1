@@ -23,7 +23,7 @@ const maps = [
 
 const MapRotation: React.FC = () => {
     return (
-        <div className="server__next-w">
+        <div className="server__next-w pb-6">
             <div className="server__next-h mb-4">MAP ROTATION</div>
             <div className="server__maps-w grid place-items-center grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
                 {maps.map((map, index) => (
